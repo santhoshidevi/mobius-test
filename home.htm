@@ -1,0 +1,20 @@
+<div class="topbar">
+    <div class="iconstring">
+        <input type="text" id="name" name="name" placeholder="Search Any Name here.."
+            data-ng-model="initModels.searchStr">
+        <!-- data-ng-keyup="initModels.search($event)" -->
+        <img src="../../icons/Icon feather-search.svg" data-ng-click="initModels.search(initModels.searchStr)">
+    </div>
+</div>
+<div class="div2" data-ng-if="initModels.displayData.length>0">
+    <label class="count">Search Results:{{initModels.displayData[0].count}}</label>
+    <table>
+        <tr data-ng-repeat="person in initModels.displayData[0].items">
+            <td data-ng-click="initModels.personDetails(person)">
+                <div><label>{{$index+1}}.Person Login:</label>{{person.login}} </div>
+            </td>
+        </tr>
+
+
+    </table>
+</div>

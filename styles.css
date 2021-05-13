@@ -1,0 +1,47 @@
+
+.iconstring{
+    display:inline;
+}
+
+.iconstring input{
+    /* width: 25%;
+    line-height: 2em; */
+    width: 31%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.topbar{
+    padding: 5%;
+    margin-left: 27%;
+}
+.count{
+    padding: 1%;
+    /* line-height: 19%; */
+    background-color: aquamarine;
+    margin-left: 9%;
+}
+.div2{
+    margin-left: 30%;
+}
+table{
+    padding: 1%;
+    background-color: beige;
+    margin-top: 2%;
+    margin-left: 1%;
+    width: 40%;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+table tr{
+    background-color: bisque;
+    padding: 1%;
+}
+tabel tr td{
+    line-height:193%;
+}
