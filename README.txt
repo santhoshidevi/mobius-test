@@ -6,3 +6,8 @@ data is displayed in that page.
 
 
 run code through vs code.(main.htm) run this
+
+
+
+
+Cant display image as it is in raw png format.
